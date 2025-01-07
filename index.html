@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airpods</title>
+
+  <link href="fonts/SFProDisplay-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link href="fonts/SFProDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="fonts/SFProDisplay-Medium.woff" as="font" type="font/woff" crossorigin>
+  <link href="fonts/SFProDisplay-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="fonts/SFProDisplay-Semibold.woff" as="font" type="font/woff" crossorigin>
+  <link href="fonts/SFProDisplay-Semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="fonts/SFProDisplay-Bold.woff" as="font" type="font/woff" crossorigin>
+  <link href="fonts/SFProDisplay-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="shortcut icon" href="Favicon.svg" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script defer src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body id="scroll">
+  <header class="header">
+    <div class="header-up">
+      <div class="header-up__container container">
+        <div class="header-up__left">
+          <span class="header-up__logo">
+            <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.5589 5.4325C12.4659 5.5048 10.8341 6.424 10.8341 8.4689C10.8341 10.834 12.91 11.6706 12.972 11.6912C12.9617 11.7428 12.6415 12.8376 11.8772 13.953C11.1956 14.9342 10.4829 15.9153 9.3985 15.9153C8.3141 15.9153 8.0352 15.2853 6.7855 15.2853C5.5668 15.2853 5.133 15.936 4.1415 15.936C3.15 15.936 2.458 15.0271 1.6628 13.9117C0.7436 12.6 0 10.5654 0 8.6341C0 5.5357 2.014 3.8935 3.9969 3.8935C5.0504 3.8935 5.9282 4.5855 6.5892 4.5855C7.2192 4.5855 8.2004 3.8522 9.3984 3.8522C9.8529 3.8523 11.4848 3.8937 12.5589 5.4325ZM8.8305 2.5407C9.3262 1.952 9.6774 1.1361 9.6774 0.3202C9.6774 0.2066 9.6671 0.093 9.6464 0C8.8408 0.031 7.8803 0.537101 7.3019 1.2084C6.8475 1.7248 6.424 2.5407 6.424 3.367C6.424 3.4909 6.4447 3.6149 6.455 3.6562C6.5066 3.6665 6.5893 3.6769 6.6719 3.6769C7.3949 3.6768 8.3037 3.1914 8.8305 2.5407Z" fill="white"/>
+            </svg>
+            Официальный&nbsp;представитель&nbsp;Apple
+          </span>
+          <button class="header-up__location">Москва</button>
+        </div>
+        <div class="header-up__right">
+          <a href="tel:+70000000000" class="header-up__phone">8&nbsp;800&nbsp;000&nbsp;00&nbsp;00</a>
+          <button class="header-up__call">Заказать&nbsp;звонок</button>
+          <div class="header-up__icons">
+            <button class="header-up__search">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.1467 12.3741L9.64666 8.87408C10.5284 7.79425 10.9615 6.41696 10.8566 5.02685C10.7517 3.63673 10.1167 2.34006 9.08287 1.40482C8.04907 0.469575 6.69547 -0.0327502 5.30183 0.00165776C3.90819 0.0360657 2.58103 0.604578 1.59464 1.5897C0.608254 2.57482 0.0380354 3.90125 0.00183498 5.29484C-0.0343654 6.68844 0.466219 8.04268 1.40013 9.07768C2.33405 10.1127 3.6299 10.7493 5.01988 10.856C6.40985 10.9628 7.7877 10.5314 8.86866 9.65108L12.3687 13.1511C12.4197 13.2022 12.4804 13.2427 12.5471 13.2703C12.6139 13.298 12.6854 13.3122 12.7577 13.3122C12.8299 13.3122 12.9014 13.298 12.9682 13.2703C13.0349 13.2427 13.0956 13.2022 13.1467 13.1511C13.1977 13.1 13.2383 13.0394 13.2659 12.9726C13.2936 12.9059 13.3078 12.8343 13.3078 12.7621C13.3078 12.6898 13.2936 12.6183 13.2659 12.5516C13.2383 12.4848 13.1977 12.4242 13.1467 12.3731V12.3741ZM1.12567 5.44908C1.12586 4.59491 1.37934 3.75997 1.85403 3.04985C2.32873 2.33972 3.00334 1.7863 3.79255 1.45956C4.58176 1.13282 5.45014 1.04743 6.28787 1.21419C7.12561 1.38096 7.89509 1.79238 8.49901 2.39644C9.10294 3.00051 9.51418 3.77008 9.68075 4.60786C9.84732 5.44563 9.76173 6.31399 9.4348 7.10312C9.10788 7.89226 8.5543 8.56674 7.84407 9.04127C7.13383 9.5158 6.29884 9.76908 5.44467 9.76908C4.29935 9.76802 3.20126 9.31251 2.39149 8.50255C1.58172 7.6926 1.12646 6.5944 1.12567 5.44908Z" fill="white"/>
+              </svg>
+            </button>
+            <button class="header-up__basket">
+              <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 12.9C12 13.5 11.5 14 10.9 14H2.1C1.5 14 1 13.5 1 12.9V5C1 4.5 1.5 4 2.1 4H11C11.6 4 12.1 4.5 12.1 5.1V12.9H12ZM6.5 1C7.7 1 8.6 1.9 8.8 3H4.2C4.4 1.9 5.3 1 6.5 1ZM10.9 3H9.8C9.6 1.3 8.2 0 6.5 0C4.8 0 3.4 1.3 3.2 3H2.1C0.9 3 0 3.9 0 5.1V13C0 14.1 0.9 15 2.1 15H11C12.1 15 13.1 14.1 13.1 12.9V5C13 3.9 12.1 3 10.9 3Z" fill="white"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-down container">
+      <nav class="header-down__nav">
+        <ul class="header-down__list">
+          <li class="header-down__item">
+            <a class="header-down__link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="header-down__item">
+            <a class="header-down__link" href="#">О нас</a>
+          </li>
+          <li class="header-down__item">
+            <a class="header-down__link" href="catalog.html">Гарантия</a>
+          </li>
+          <li class="header-down__item">
+            <a class="header-down__link" href="catalog.html">Доставка и сборка</a>
+          </li>
+          <li class="header-down__item">
+            <a class="header-down__link" href="catalog.html">Вопрос-ответ</a>
+          </li>
+          <li class="header-down__item">
+            <a class="header-down__link" href="catalog.html">Примеры работ</a>
+          </li>
+          <li class="header-down__item">
+            <a class="header-down__link" href="catalog.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>   
+  </header>
+  <main>
+    <section class="section-hero container">
+      <div class="section-hero__left">
+        <div class="section-hero__left-sale">
+          <span class="sale-1">-30%</span>
+          <span class="sale-2">-50%</span>
+          <span class="sale-3">-70%</span>
+        </div>
+        <h1 class="section-hero__heading">Скидки</h1>
+        <span class="section-hero__left-text">Распродажа наушников</span>
+        <span class="section-hero__left-text text-bold">Apple 2</span>
+      </div>
+      <img class="section-hero__img" src="img/hero1.png" alt="Фото наушников">
+      <div class="section-hero__right">
+        <span class="section-hero__sale-sm">до</span>
+        <span class="section-hero__right-sale">-40%</span>
+      </div>
+    </section>
+    <section class="section-advantages">
+      <div class="section-advantages__container container">
+        <ul class="section-advantages__list row row-flex">
+          <li class="section-advantages__item col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img class="section-advantages__icon" src="img/adv1.svg" alt="Иконка преимущества">
+            <span class="section-advantages__text">Идеальное качество продукции</span>
+          </li>
+          <li class="section-advantages__item col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img class="section-advantages__icon" src="img/adv2.svg" alt="Иконка преимущества">
+            <span class="section-advantages__text">Доставка по всей России</span>
+          </li>
+          <li class="section-advantages__item col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img class="section-advantages__icon" src="img/adv3.svg" alt="Иконка преимущества">
+            <span class="section-advantages__text">Оплата при получении</span>
+          </li>
+          <li class="section-advantages__item col-lg-3 col-md-6 col-sm-6 col-xs-6">
+            <img class="section-advantages__icon" src="img/adv4.svg" alt="Иконка преимущества">
+            <span class="section-advantages__text">Официальная гарантия</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section-main container">
+      <div class="section-main__left">
+        <div class="section-main__filters">
+          <h2 class="section-main__heading-h2 heading-h2">Фильтр</h2>
+          <form class="section-main__form" action="#">
+            <input class="section-main__input" type="text" placeholder="Поиск">
+            <button class="section-main__form-btn" type="submit">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.1467 12.3741L9.64666 8.87408C10.5284 7.79425 10.9615 6.41696 10.8566 5.02685C10.7517 3.63673 10.1167 2.34006 9.08287 1.40482C8.04907 0.469575 6.69547 -0.0327502 5.30183 0.00165776C3.90819 0.0360657 2.58103 0.604578 1.59464 1.5897C0.608254 2.57482 0.0380354 3.90125 0.00183498 5.29484C-0.0343654 6.68844 0.466219 8.04268 1.40013 9.07768C2.33405 10.1127 3.6299 10.7493 5.01988 10.856C6.40985 10.9628 7.7877 10.5314 8.86866 9.65108L12.3687 13.1511C12.4197 13.2022 12.4804 13.2427 12.5471 13.2703C12.6139 13.298 12.6854 13.3122 12.7577 13.3122C12.8299 13.3122 12.9014 13.298 12.9682 13.2703C13.0349 13.2427 13.0956 13.2022 13.1467 13.1511C13.1977 13.1 13.2383 13.0394 13.2659 12.9726C13.2936 12.9059 13.3078 12.8343 13.3078 12.7621C13.3078 12.6898 13.2936 12.6183 13.2659 12.5516C13.2383 12.4848 13.1977 12.4242 13.1467 12.3731V12.3741ZM1.12567 5.44908C1.12586 4.59491 1.37934 3.75997 1.85403 3.04985C2.32873 2.33972 3.00334 1.7863 3.79255 1.45956C4.58176 1.13282 5.45014 1.04743 6.28787 1.21419C7.12561 1.38096 7.89509 1.79238 8.49901 2.39644C9.10294 3.00051 9.51418 3.77008 9.68075 4.60786C9.84732 5.44563 9.76173 6.31399 9.4348 7.10312C9.10788 7.89226 8.5543 8.56674 7.84407 9.04127C7.13383 9.5158 6.29884 9.76908 5.44467 9.76908C4.29935 9.76802 3.20126 9.31251 2.39149 8.50255C1.58172 7.6926 1.12646 6.5944 1.12567 5.44908Z" fill="#333333"/>
+              </svg>
+            </button>
+          </form>
+          <fieldset>
+            <div class="checkbox-wrapper">
+              <h3 class="filter-title">Цвет</h3>
+              <div class="checkbox-line">
+                <label class="checkbox-label">
+                  <input type="radio" class="modern-radio" value="1" name="a">
+                  <span class="checkbox-span checkbox-grey"></span>
+                </label>
+                <label class="checkbox-label">
+                  <input type="radio" class="modern-radio" value="2" name="a">
+                  <span class="checkbox-span checkbox-black"></span>
+                </label>
+              </div>
+            </div>
+            <div class="filter-kind">
+              <h3 class="filter-title">Вид</h3>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                  Проводные
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Беспроводные
+                </label>
+              </div>
+            </div>
+            <div class="filter-type">
+              <h3 class="filter-title">Тип</h3>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2">
+                <label class="form-check-label" for="flexCheckChecked2">
+                  Вставные
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                <label class="form-check-label" for="flexCheckDefault2">
+                  Накладные
+                </label>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <div class="section-main__review">
+          <h2 class="section-main__heading-h2 heading-h2">Отзывы</h2>
+          <div class="section-main__review-card">
+            <span class="card-name">Анна</span>
+            <span class="card-date">05.05.23</span>
+            <div class="card-stars">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+            </div>
+            <p class="card-descr">Один сплошной плюс. Отличное звучание, удобство, компактность, идеальное сопряжение с айфоном.</p>
+          </div>
+          <div class="section-main__review-card">
+            <span class="card-name">Михаил</span>
+            <span class="card-date">05.05.23</span>
+            <div class="card-stars">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+            </div>
+            <p class="card-descr">Отличные наушники, доволен как слон. ​Спасибо за быструю доставку</p>
+          </div>
+          <div class="section-main__review-card">
+            <span class="card-name">Николай Петрович</span>
+            <span class="card-date">25.05.23</span>
+            <div class="card-stars">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+            </div>
+            <p class="card-descr">Все отлично)</p>
+          </div>
+          <div class="section-main__review-card">
+            <span class="card-name">Алексей</span>
+            <span class="card-date">25.05.23</span>
+            <div class="card-stars">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+            </div>
+            <p class="card-descr">Не знаю кто ставит дизы в большинстве комментариев, скорее сторонники китайских аналогов или тех у кого Андройд !? Жена подарила на 23-февраля в 2019-м сегодня 2021, и эти малыши все ещё со мной. Год назад они побывали в стиральной машине, думал умрут но все в порядке, проверяйте карманы ) Наушники стоят каждого</p>
+            <button class="card-textMore">Читать весь отзыв</button>
+          </div>
+          <div class="section-main__review-card">
+            <span class="card-name">Анна</span>
+            <span class="card-date">05.05.23</span>
+            <div class="card-stars">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+            </div>
+            <p class="card-descr">Один сплошной плюс. Отличное звучание, удобство, компактность, идеальное сопряжение с айфоном.</p>
+          </div>
+          <div class="section-main__review-card last-card">
+            <span class="card-name">Михаил</span>
+            <span class="card-date">05.05.23</span>
+            <div class="card-stars">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+              <img src="img/Star.svg" alt="Рейтинг">
+            </div>
+            <p class="card-descr">Отличные наушники, доволен как слон. ​Спасибо за быструю доставку</p>
+          </div>
+          <button class="section-main__review-btn">Все отзывы</button>
+        </div>
+      </div>
+      <div class="section-main__right">
+        <div class="catalog">
+          <div class="row row-flex">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <img class="product__img" src="img/catalog1.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods Max</h3>
+              <span class="product__descr">серебристый</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <div class="product__new">NEW</div>
+              <img class="product__img" src="img/catalog2.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods Max</h3>
+              <span class="product__descr">розовый</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <img class="product__img" src="img/catalog3.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods Max</h3>
+              <span class="product__descr">зеленый</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <img class="product__img" src="img/catalog4.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods 2</h3>
+              <span class="product__descr">в зарядном футляре white</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <div class="product__new">NEW</div>
+              <img class="product__img" src="img/catalog5.jpg" alt="Фото наушников">
+              <h3 class="product__name name-mb5">Проводная гарнитура Apple EarPods</h3>
+              <span class="product__descr">с разъемом 3,5 мм</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <img class="product__img" src="img/catalog6.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods 2</h3>
+              <span class="product__descr">в зарядном футляре white</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <img class="product__img" src="img/catalog4.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods 2</h3>
+              <span class="product__descr">в зарядном футляре white</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <div class="product__new">NEW</div>
+              <img class="product__img" src="img/catalog5.jpg" alt="Фото наушников">
+              <h3 class="product__name name-mb5">Проводная гарнитура Apple EarPods</h3>
+              <span class="product__descr">с разъемом 3,5 мм</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <img class="product__img" src="img/catalog6.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods 2</h3>
+              <span class="product__descr">в зарядном футляре white</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <img class="product__img" src="img/catalog4.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods 2</h3>
+              <span class="product__descr">в зарядном футляре white</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <div class="product__new">NEW</div>
+              <img class="product__img" src="img/catalog5.jpg" alt="Фото наушников">
+              <h3 class="product__name name-mb5">Проводная гарнитура Apple EarPods</h3>
+              <span class="product__descr">с разъемом 3,5 мм</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 product">
+              <div class="product__sale">-50%</div>
+              <img class="product__img" src="img/catalog6.jpg" alt="Фото наушников">
+              <h3 class="product__name">Наушники Apple AirPods 2</h3>
+              <span class="product__descr">в зарядном футляре white</span>
+              <span class="product__old-price">7 500 &#8381;</span>
+              <span class="product__price">2 500 &#8381;</span>
+              <button class="product__btn">Купить</button>
+            </div>
+          </div>
+        </div>
+        <nav class="navigation pagination" role="navigation">
+          <div class="nav-links">
+            <a class="prev page-numbers" href=""></a>
+            <span aria-current="page" class="page-numbers current">1</span>
+            <a class="page-numbers" href="">2</a>
+            <a class="page-numbers" href="">3</a>
+            <a class="page-numbers" href="">4</a>
+            <a class="page-numbers" href="">5</a>
+            <a class="next page-numbers" href=""></a>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section class="section-easy">
+      <div class="section-easy__container container">
+        <h2 class="section-easy__heading">Подключаются к устройствам
+          <span class="heading-gradient">с волшебной лёгкостью.</span>
+        </h2>
+        <div class="section-easy__navigation">
+          <button class="sw-btn section-easy__btn section-easy__btn-left"></button>
+          <button class="sw-btn section-easy__btn section-easy__btn-right"></button>
+        </div>
+        <div class="section-easy__swiper swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide section-easy__slide">
+              <img class="slide-img slide-img1" src="img/slide1.jpg" alt="Фото настройка">
+              <h3 class="slide-title">Настройка одним касанием</h3>
+              <a class="slide-link"  href="#">Подробнее
+                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.54046 6.25623L0.270045 0.985815L1.25586 0L7.51208 6.25623L1.25586 12.5125L0.270045 11.5266L5.54046 6.25623Z" fill="#333333"/>
+                </svg>
+              </a>
+            </div>
+            <div class="swiper-slide section-easy__slide">
+              <img class="slide-img slide-img2" src="img/slide2.jpg" alt="Фото настройка">
+              <h3 class="slide-title">Автоматическое переключение</h3>
+              <a class="slide-link" href="#">Подробнее
+                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.54046 6.25623L0.270045 0.985815L1.25586 0L7.51208 6.25623L1.25586 12.5125L0.270045 11.5266L5.54046 6.25623Z" fill="#333333"/>
+                </svg>
+              </a>
+            </div>
+            <div class="swiper-slide section-easy__slide">
+              <img class="slide-img" src="img/slide3.jpg" alt="Фото настройка">
+              <h3 class="slide-title">Совместный доступ к аудио</h3>
+              <a class="slide-link" href="#">Подробнее
+                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.54046 6.25623L0.270045 0.985815L1.25586 0L7.51208 6.25623L1.25586 12.5125L0.270045 11.5266L5.54046 6.25623Z" fill="#333333"/>
+                </svg>
+              </a>
+            </div>
+            <div class="swiper-slide section-easy__slide">
+              <img class="slide-img slide-img1" src="img/slide1.jpg" alt="Фото настройка">
+              <h3 class="slide-title">Настройка одним касанием</h3>
+              <a class="slide-link" href="#">Подробнее
+                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.54046 6.25623L0.270045 0.985815L1.25586 0L7.51208 6.25623L1.25586 12.5125L0.270045 11.5266L5.54046 6.25623Z" fill="#333333"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-information container">
+      <div class="section-information__left">
+        <h2 class="section-information__heading heading-h2 heading-white">Выберите  
+          <span class="heading-gradient">свои </span>
+          AirPods.
+        </h2>
+        <a class="section-information__link" href="#">Подробнее
+          <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.54046 6.25623L0.270045 0.985815L1.25586 0L7.51208 6.25623L1.25586 12.5125L0.270045 11.5266L5.54046 6.25623Z" fill="#fff"/>
+          </svg>
+        </a>
+      </div>
+      <div class="section-information__right">
+        <h2 class="section-information__heading heading-h2 heading-black"> 
+          <span class="heading-gradient">Как настроить </span>
+          AirPods.
+        </h2>
+        <a class="section-information__link link-black" href="#">Подробнее
+          <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.54046 6.25623L0.270045 0.985815L1.25586 0L7.51208 6.25623L1.25586 12.5125L0.270045 11.5266L5.54046 6.25623Z" fill="#333333"/>
+          </svg>
+        </a>
+
+      </div>
+
+    </section>
+    
+  </main>
+  <footer class="footer container">
+    
+  </footer>
+
+  <script src="js/mixitup.min.js"></script>
+  <script>
+    // Документация
+    // https://www.kunkalabs.com/mixitup/docs/get-started/
+    // Инициализация
+    let mixer = mixitup('.catalod');
+  </script>
+</body>
+</html>
